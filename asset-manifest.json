@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ToDo_Mindbox_test/static/css/main.6cf4a6b8.css",
-    "main.js": "/ToDo_Mindbox_test/static/js/main.d17b6083.js",
+    "main.css": "/ToDo_Mindbox_test/static/css/main.83246e0b.css",
+    "main.js": "/ToDo_Mindbox_test/static/js/main.050033e1.js",
     "static/js/787.fdbf24e4.chunk.js": "/ToDo_Mindbox_test/static/js/787.fdbf24e4.chunk.js",
     "index.html": "/ToDo_Mindbox_test/index.html",
-    "main.6cf4a6b8.css.map": "/ToDo_Mindbox_test/static/css/main.6cf4a6b8.css.map",
-    "main.d17b6083.js.map": "/ToDo_Mindbox_test/static/js/main.d17b6083.js.map",
+    "main.83246e0b.css.map": "/ToDo_Mindbox_test/static/css/main.83246e0b.css.map",
+    "main.050033e1.js.map": "/ToDo_Mindbox_test/static/js/main.050033e1.js.map",
     "787.fdbf24e4.chunk.js.map": "/ToDo_Mindbox_test/static/js/787.fdbf24e4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cf4a6b8.css",
-    "static/js/main.d17b6083.js"
+    "static/css/main.83246e0b.css",
+    "static/js/main.050033e1.js"
   ]
 }
