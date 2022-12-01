@@ -26,6 +26,9 @@ const TaskInput: React.FC = () => {
         ref={taskInputRef}
         value={inputValue}
         onChange={updateNewTaskValue}
+        onKeyDown={(event) => {
+          if (event.code === `Enter`) addNewTask();
+        }}
         className={'task_input'}
         type={'text'}
         placeholder={'Что планируете сделать?'}

@@ -55,12 +55,15 @@ const tasksSlice = createSlice({
       }
     },
     clearCompletedTasks(state) {
-      let getStorage = state.taskStorage
-        ?.filter((item) => item.isDone === false)
+      let getStorage = JSON.parse(localStorage.getItem('taskStorage') as string) as TaskStorage;
+
+      getStorage = getStorage
+        .filter((item) => item.isDone === false)
         .map((item, index: number) => {
           return { ...item, taskID: index };
         });
-      state.taskStorage = getStorage;
+
+      state.taskStorage = [];
       localStorage.setItem('taskStorage', JSON.stringify(getStorage));
     },
   },
